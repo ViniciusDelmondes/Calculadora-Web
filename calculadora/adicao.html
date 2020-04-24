@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <title> Calculadora </title>
+        <link rel="shortcut icon" href="imagens/calculator-icon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body background="imagens/fundo3.jpg">
+    <div id='Interface'>
+       <header id='cabecalho'>
+           <nav class='menu'>
+               <ul>
+                    <li> <a href="adicao.html"> Nova conta </a> </li>
+                    <li> <a href="#"> Expressões </a>
+                        <ul>
+                            <li> <a href="expoente.html"> Expoente </a> </li>
+                            <li> <a href="adicao.html"> Adição </a> </li>
+                            <li> <a href="subtracao.html"> Subtração </a> </li>
+                            <li> <a href="multiplicacao.html"> Multiplicação </a> </li>
+                            <li> <a href="divisao.html">Divisão </a> </li>
+                        </ul>
+                    </li>
+               </ul>
+           </nav>
+       </header>
+
+<div class="full">
+    <section id="conteudo">
+        <img id="adicao" src="imagens/adicao.PNG" alt="">
+        <h1> Digite dois números: </h1>
+    </section>
+            <div class="operac">
+                <h1>1° Número:  <input id="num1" placeholder="Digite um número..."> </h1> <br>
+                <h1>2° Número: <input id="num2" placeholder="Digite um número...">  </h1>
+            </div>
+
+            <div>
+                <button class="botao" onclick="somar()"> ENTER </button>
+            </div>
+
+            <section class="result">
+                <h3> Resultado </h3>
+                <p id="result">   </p>
+            </section>
+    </div>
+
+    </div>
+</div>
+    
+</body>
+
+<script>
+    function somar() {
+        var n1 = parseInt(document.getElementById("num1").value);
+        var n2 = parseInt(document.getElementById("num2").value);
+        var resultado = n1 + n2
+
+        document.getElementById("result").innerHTML = resultado
+
+        if (resultado != resultado) {
+            return alert("Digite os números corretamente!")
+        } 
+    } 
+
+</script>
+
+
+</html>

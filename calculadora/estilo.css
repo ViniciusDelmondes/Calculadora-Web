@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+div#interface {
+    height: 1900px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-left: 36%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 28%;
+    height: 50px;
+    background-color: black;
+    font-family: arial;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu ul li {
+    width: 188px;
+    float: left;
+}
+
+.menu a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+    z-index: 1;
+    transition: all;
+}
+
+.menu a:hover {
+    background-color: #f4f4f4;
+    color: #555;
+    
+}
+
+.menu ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+    
+}
+
+.menu ul ul li a {
+    background-color: #A020F0;
+    
+}
+
+img#logo{
+    margin: 55px;
+    position: relative;
+    padding-left: 25%;
+}
+
+div section h1 {
+    margin-top: 80px;
+    color:white;
+    font-size: 25px;
+    padding-left: 408px;
+}
+
+img#calc {
+    width: 200px;
+    position: relative;
+    padding-left: 557px;
+}
+
+img#adicao {
+    margin: 55px;
+    position: relative;
+    padding-left: 78px;
+}
+
+img#subtracao {
+    margin: 55px;
+    position: relative;
+    padding-left: 15px;
+}
+
+img#divisao {
+    margin: 55px;
+    position: relative;
+    padding-left: 83px;
+}
+
+img#calc {
+    margin: 55px;
+    margin-top: -10px;
+    position: relative;
+    padding-left: 10px;
+}
+
+img#multiplicacao {
+    margin: 55px;
+    position: relative;
+    margin-left: 38px;
+}
+
+img#expoente {
+    margin: 55px;
+    position: relative;
+    margin-left: 110px;
+}
+
+img#balao {
+    margin: 0px;
+    margin-top: 80px;
+    position: relative;
+    margin-left: 150px;
+}
+
+section#conteudo h1{
+    padding-left: 138px;
+    margin: 0;
+    margin-top: -16px;
+    color: white;
+}
+
+.operac h1 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    padding-left: 110px;
+    margin-top: 38px;
+}
+
+.botao {
+    margin-top: 38px;
+    margin-left: 215px;
+    padding: 10px;
+    border: purple 3px solid;
+    border-style: none;
+    cursor: pointer;
+    box-shadow:0px 5px 0px #9932CC;
+    background-color: #BA55D3;
+    color: white;
+    font-weight: 800;
+}
+
+.botao:hover {
+    background-color: #9400D3;
+}
+
+.botao:active{
+    position: relative;
+    top:5px;
+    box-shadow: none;
+}
+
+.result h3{
+    margin: 0;
+    margin-top: 38px;
+    color: white;
+    font-size: 25px;
+    padding-left: 192px;
+}
+
+p#result {
+    margin-top: 30px;
+    font-size: 28px;
+    color:white;
+    font-weight: 800px;
+    padding-left: 235px;
+}
+
+.full {
+    width: 500px;
+    height: 600px;
+    margin-left: 430px;
+    margin-top: 15px;
+    position: relative;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #4B0082;
+}
+
+
